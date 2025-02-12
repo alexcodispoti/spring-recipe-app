@@ -1,0 +1,16 @@
+PROGRAMMAZIONE JAVA
+
+
+
+1 trick
+		periodiPrecedentiDTO.setMotivoUtilizzo("0".equals(rs.getString("mu")) ? null : rs.getString("mu"));
+		
+		non faccio l'if ma uso ? per indicare che, se la condizione che viene dichiarata prima non sia vera, allora imposto a null oppure se è falsa faccio l'operazione dopo : 
+		
+
+2 trick
+		
+		
+		
+		
+			
